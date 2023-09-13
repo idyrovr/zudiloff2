@@ -1,0 +1,124 @@
+.clubprice {
+    padding: 83px 187px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: rgba(64, 79, 206, 0.35);
+    }
+
+    & .container {
+        position: relative;
+    }
+
+    background: var(--color-primary, #0D0D2B);
+
+    &__title {
+        color: #FFF;
+        // text-shadow: 0px 0px 65.61000061035156px #A487F2, 0px 0px 131.22000122070312px #A487F2, 0px 0px 459.2699890136719px #A487F2, 0px 0px 918.5399780273438px #A487F2, 0px 0px 1574.6400146484375px #A487F2, 0px 0px 2755.6201171875px #A487F2;
+        font-family: 'Impact', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__desc {
+        color: #CFCFCF;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;
+
+    }
+}
+
+.last {
+    position: absolute;
+    right: 0;
+    top: -10rem;
+}
+
+
+@media (max-width: 1050px) {
+    .clubprice {
+        padding: 83px 50px;
+
+        &__title {
+            line-height: 50px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .clubhero {
+        &__grid {
+            padding: 0 20px;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .clubabout {
+        &__parts {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+
+@media (max-width: 650px) {
+    .circle__left2 {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .clubhero {
+        & .part {
+            &__row {
+                margin-bottom: 10px;
+            }
+            &__title {
+                font-size: 20px;
+            }
+            &__desc {
+                font-size: 18px;
+            }
+        }
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .clubabout {
+        &__parts {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .clubprice {
+        padding: 83px 15px;
+
+        &__title {
+            font-size: 30px;
+        }
+        &__desc {
+            font-size: 18px;
+        }
+    }
+}

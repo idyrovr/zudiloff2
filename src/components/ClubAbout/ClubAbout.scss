@@ -1,0 +1,111 @@
+.clubabout {
+    position: relative;
+    padding-top: 250px;
+    background-color: black;
+    padding-bottom: 250px;
+
+    .container {
+        max-width: 1500px;
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    &__parts {
+
+        row-gap: 20rem;
+        column-gap: 34px;
+    }
+
+    &__part {
+        position: relative;
+        margin: 0 auto;
+        padding: 10px 30px 30px;
+        width: 90%;
+        height: 237.667px;
+
+
+
+    }
+
+    &__part1 {
+        background: radial-gradient(100.00% 100.00% at 50.00% 0.00%, #8D96D6 0%, rgba(7, 7, 28, 0.10) 100%);
+    }
+
+    &__part2 {
+        background: radial-gradient(100.00% 100.00% at 50.00% -0.00%, #720590 0%, rgba(10, 7, 35, 0.00) 100%);
+    }
+
+    &__part3 {
+        background: radial-gradient(88.12% 88.12% at 50.00% 0.00%, #7B8BAD 0%, rgba(10, 7, 35, 0.02) 100%);
+    }
+
+    &__part4 {
+        background: radial-gradient(85.06% 85.06% at 50.00% 14.94%, #2B4D8C 0%, rgba(23, 4, 69, 0.07) 100%);
+    }
+
+    &__part5 {
+        background: radial-gradient(104.95% 103.20% at 48.80% 9.39%, #5F1349 0%, rgba(18, 5, 57, 0.00) 100%);
+    }
+
+    &__part6 {
+        background: radial-gradient(100% 100% at 50.00% 0%, rgba(6, 153, 126, 0.83) 0%, rgba(22, 6, 64, 0.00) 100%);
+    }
+
+    & .part {
+
+        &__image {
+            width: 65%;
+            position: absolute;
+            top: -90px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+
+            & img {
+                width: 100%;
+            }
+        }
+
+        &__image3 {
+            width: 35%;
+        }
+
+        &__image4 {
+            width: 45%;
+        }
+
+        &__title {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .clubabout {
+        &__title {
+            font-size: 30px;
+        }
+        & .part {
+            &__title {
+                font-size: 18px;
+            }
+        }
+    }
+}

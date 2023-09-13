@@ -1,0 +1,41 @@
+.earnp2p {
+  position: relative;
+  padding-bottom: 400px;
+}
+.earnp2p__title {
+  color: #FFF;
+  font-family: "Impact", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  margin-bottom: 80px;
+}
+.earnp2p__part {
+  padding: 15px 60px 15px 40px;
+  border-radius: 10px;
+  border: 1px solid #617FF5;
+}
+.earnp2p__partTitle {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-left: 26px;
+  margin-bottom: 20px;
+}
+.earnp2p__rowDesc {
+  margin-bottom: 20px;
+}
+.earnp2p__desc {
+  max-width: 379px;
+  margin-left: 10px;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=Earnp2p.css.map */

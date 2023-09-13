@@ -1,0 +1,80 @@
+.closedclub {
+    padding: 150px 0;
+
+    &__title {
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__desc {
+        color: #CFCFCF;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 10px 0 55px;
+    }
+
+    &__btn {
+        cursor: pointer;
+        border-radius: 32px;
+        background: linear-gradient(180deg, #3671E9 0%, #654DB3 100%);
+        box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.15) inset, 0px 0px 30px 0px rgba(255, 255, 255, 0.05) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 0px 19.8778133392334px #FFF, 0px 0px 39.7556266784668px #FFF, 0px 0px 139.14468383789062px #FFF, 0px 0px 278.28936767578125px #FFF, 0px 0px 477.0675048828125px #FFF, 0px 0px 834.8681030273438px #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        padding: 20px 43px;
+    }
+
+    &__btn:hover {
+        transition: 0.3s;
+
+        padding: 20px 41px;
+        background: linear-gradient(180deg, #654DB3 0%, #654DB3 100%);
+    }
+}
+
+
+@media (max-width: 700px) {
+    .closedclub {
+        &__title {
+            text-align: center;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .closedclub {
+        &__title {
+            font-size: 35px;
+        }
+
+        &__desc {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .closedclub {
+        &__title {
+            font-size: 35px;
+        }
+
+        &__desc {
+            font-size: 18px;
+        }
+    }
+}

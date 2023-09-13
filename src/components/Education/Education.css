@@ -1,0 +1,105 @@
+.education__container {
+  max-width: 1500px;
+}
+.education__title {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.education__desc {
+  color: #CFCFCF;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 120px;
+}
+.education__span {
+  font-weight: 600;
+}
+.education .tariff__col {
+  width: 393px;
+  height: 781px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(101, 77, 179, 0.88) 0%, rgba(115, 91, 193, 0) 100%);
+  box-shadow: 0px 0px 2.8994624615px 0px #304FAB, 0px 0px 5.7989249229px 0px #304FAB, 0px 0px 20.2962379456px 0px #304FAB, 0px 0px 40.5924758911px 0px #304FAB, 0px 0px 69.587097168px 0px #304FAB, 0px 0px 121.7774276733px 0px #304FAB;
+}
+.education .tariff__up {
+  width: 100%;
+  padding: 26px;
+}
+.education .tariff__type {
+  text-align: center;
+  padding: 6px 20px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 10.9186029434px #FFF, 0px 0px 21.8372058868px #FFF, 0px 0px 76.4302215576px #FFF, 0px 0px 152.8604431152px #FFF, 0px 0px 262.0464782715px #FFF, 0px 0px 458.5813293457px #FFF;
+  font-family: Cinzel;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+  border: 3px solid #FFF;
+  background: rgba(60, 83, 201, 0);
+  box-shadow: 0px 0px 14.0042953491px 0px #3C53C9, 0px 0px 28.0085906982px 0px #3C53C9, 0px 0px 98.0300674438px 0px #3C53C9, 0px 0px 196.0601348877px 0px #3C53C9, 0px 0px 336.1030883789px 0px #3C53C9, 0px 0px 588.1804199219px 0px #3C53C9;
+  margin-bottom: 20px;
+}
+.education .tariff__zoom {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.education .tariff__trading {
+  color: rgba(255, 255, 255, 0.47);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.education .tariff__middle {
+  padding: 26px;
+}
+.education .tariff__row {
+  margin-bottom: 20px;
+}
+.education .tariff__desc {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.education .tariff__descEdit {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+}
+.education .tariff__down {
+  padding: 26px;
+}
+.education .tariff__payDesc {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline;
+  margin-right: 10px;
+}/*# sourceMappingURL=Education.css.map */

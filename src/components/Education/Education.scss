@@ -1,0 +1,224 @@
+.education {
+    &__container {
+        max-width: 1500px;
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &__desc {
+        color: #CFCFCF;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 120px;
+    }
+
+    &__span {
+        font-weight: 600;
+    }
+
+    & .tariff {
+        &__col {
+            margin: 0 auto;
+            width: 393px;
+
+            border-radius: 30px;
+            background: linear-gradient(180deg, rgba(101, 77, 179, 0.88) 0%, rgba(115, 91, 193, 0.00) 100%);
+            box-shadow: 0px 0px 2.8994624614715576px 0px #304FAB, 0px 0px 5.798924922943115px 0px #304FAB, 0px 0px 20.29623794555664px 0px #304FAB, 0px 0px 40.59247589111328px 0px #304FAB, 0px 0px 69.58709716796875px 0px #304FAB, 0px 0px 121.77742767333984px 0px #304FAB;
+        }
+
+        &__col-sm {
+            height: 720px;
+        }
+
+        &__up {
+            width: 100%;
+            padding: 26px;
+            background-color: rgba(101, 77, 179, 0.88);
+            border-radius: 30px 30px 0 0;
+        }
+
+        &__type {
+            text-align: center;
+            padding: 6px 20px;
+            color: #FFF;
+            text-align: center;
+            text-shadow: 0px 0px 10.91860294342041px #FFF, 0px 0px 21.83720588684082px #FFF, 0px 0px 76.43022155761719px #FFF, 0px 0px 152.86044311523438px #FFF, 0px 0px 262.0464782714844px #FFF, 0px 0px 458.5813293457031px #FFF;
+            font-family: Cinzel;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border-radius: 20px;
+            border: 3px solid #FFF;
+            background: rgba(60, 83, 201, 0.00);
+            box-shadow: 0px 0px 14.004295349121094px 0px #3C53C9, 0px 0px 28.008590698242188px 0px #3C53C9, 0px 0px 98.03006744384766px 0px #3C53C9, 0px 0px 196.0601348876953px 0px #3C53C9, 0px 0px 336.10308837890625px 0px #3C53C9, 0px 0px 588.180419921875px 0px #3C53C9;
+            margin-bottom: 20px;
+        }
+
+        &__vip {
+            color: #BD8E14;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-family: 'Cinzel', sans-serif;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            border-radius: 20px;
+            border: 3px solid #C0921D;
+            box-shadow: 0px 0px 12.768060684204102px 0px #FFC933, 0px 0px 25.536121368408203px 0px #FFC933, 0px 0px 89.37642669677734px 0px #FFC933, 0px 0px 178.7528533935547px 0px #FFC933, 0px 0px 306.4334716796875px 0px #FFC933, 0px 0px 536.258544921875px 0px #FFC933;
+        }
+
+        &__zoom {
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+        }
+
+        &__trading {
+            color: rgba(255, 255, 255, 0.47);
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+        }
+
+        &__middle {
+            padding: 26px;
+
+        }
+
+        &__row {
+            margin-bottom: 20px;
+        }
+
+        &__desc {
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 25px;
+
+        }
+
+        &__descEdit {
+
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-left: 10px;
+        }
+
+        &__down {
+            width: 100%;
+            padding: 26px;
+
+        }
+
+        &__payDesc {
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-decoration: underline;
+            margin-right: 10px;
+
+        }
+
+        &__btn {
+            cursor: pointer;
+            border-radius: 25px;
+            border: 1px solid #FFE2E2;
+            background: linear-gradient(180deg, rgba(149, 117, 255, 0.99) 0%, rgba(133, 101, 239, 0.00) 100%);
+            box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.15) inset, 0px 0px 30px 0px rgba(255, 255, 255, 0.05) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            color: #FFF;
+            text-align: center;
+            text-shadow: 0px 0px 13.598052978515625px #FFF, 0px 0px 27.19610595703125px #FFF, 0px 0px 95.18637084960938px #FFF, 0px 0px 190.37274169921875px #FFF, 0px 0px 326.353271484375px #FFF, 0px 0px 571.1182250976562px #FFF;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            width: 100%;
+            height: 86px;
+            margin-top: 20px;
+
+        }
+
+        &__btn:hover {
+            transition: 0.1s;
+            width: 99%;
+            background: linear-gradient(180deg, rgb(101,77,179) 0%, rgb(101,77,179) 100%);
+        }
+        &__navbtn{
+            display: flex;
+            justify-content: center;
+            
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .education {
+        &__tariff {
+            grid-template-columns: 1fr;
+            row-gap: 35px;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .education {
+        &__title {
+            font-size: 33px;
+        }
+
+        &__desc {
+            font-size: 16px;
+        }
+
+        .tariff {
+            row-gap: 120px;
+
+            &__col {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .education {
+        &__title {
+            font-size: 27px;
+            font-weight: 600;
+        }
+
+    }
+}

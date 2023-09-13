@@ -1,0 +1,434 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+:root {
+  --color-dark: black;
+  --color-light:#fff;
+}
+
+@font-face {
+  font-family: "../fonts/Roboto";
+  src: url("../fonts/Roboto-Medium.eot");
+  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Russo One";
+  src: url("../fonts/RussoOne-Regular.eot");
+  src: url("../fonts/RussoOne-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RussoOne-Regular.woff2") format("woff2"), url("../fonts/RussoOne-Regular.woff") format("woff"), url("../fonts/RussoOne-Regular.ttf") format("truetype"), url("../fonts/RussoOne-Regular.svg#RussoOne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cinzel";
+  src: url("../fonts/Cinzel-Regular.eot");
+  src: url("../fonts/Cinzel-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Cinzel-Regular.woff2") format("woff2"), url("../fonts/Cinzel-Regular.woff") format("woff"), url("../fonts/Cinzel-Regular.ttf") format("truetype"), url("../fonts/Cinzel-Regular.svg#Cinzel-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-SemiBold.eot");
+  src: url("../fonts/Outfit-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Outfit-SemiBold.woff2") format("woff2"), url("../fonts/Outfit-SemiBold.woff") format("woff"), url("../fonts/Outfit-SemiBold.ttf") format("truetype"), url("../fonts/Outfit-SemiBold.svg#Outfit-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-Regular.eot");
+  src: url("../fonts/Outfit-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Outfit-Regular.woff2") format("woff2"), url("../fonts/Outfit-Regular.woff") format("woff"), url("../fonts/Outfit-Regular.ttf") format("truetype"), url("../fonts/Outfit-Regular.svg#Outfit-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.eot");
+  src: url("../fonts/Inter-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.ttf") format("truetype"), url("../fonts/Inter-Regular.svg#Inter-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.eot");
+  src: url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Medium.eot");
+  src: url("../fonts/Rubik-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Medium.woff2") format("woff2"), url("../fonts/Rubik-Medium.woff") format("woff"), url("../fonts/Rubik-Medium.ttf") format("truetype"), url("../fonts/Rubik-Medium.svg#Rubik-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.eot");
+  src: url("../fonts/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff"), url("../fonts/Rubik-Regular.ttf") format("truetype"), url("../fonts/Rubik-Regular.svg#Rubik-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-SemiBold.eot");
+  src: url("../fonts/Rubik-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik-SemiBold.woff2") format("woff2"), url("../fonts/Rubik-SemiBold.woff") format("woff"), url("../fonts/Rubik-SemiBold.ttf") format("truetype"), url("../fonts/Rubik-SemiBold.svg#Rubik-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraBold.eot");
+  src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"), url("../fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.eot");
+  src: url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype"), url("../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* UI*/
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --f: #F5B848;
+  --d: #D4AF6C;
+  --lightBlack: #2D2C2C;
+  --brown: #5F5138;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-self__center {
+  align-self: center;
+}
+.align-self__end {
+  align-self: flex-end;
+}
+.align-self__start {
+  align-self: flex-start;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.grid {
+  display: grid;
+}
+.grid__col-6 {
+  grid-template-columns: 1fr 1fr;
+}
+.grid__col-4 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid__col-3 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid__gap-30 {
+  gap: 30px;
+}
+.grid__gap-40 {
+  gap: 40 px;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+.h-100 {
+  height: 100%;
+}
+
+.m-2 {
+  margin: 5px;
+}
+.m-4 {
+  margin: 8px;
+}
+.m-6 {
+  margin: 12px;
+}
+.m-8 {
+  margin: 20px;
+}
+.m-10 {
+  margin: 28px;
+}
+.my-2 {
+  margin: 5px 0;
+}
+.my-4 {
+  margin: 8px 0;
+}
+.my-6 {
+  margin: 12px 0;
+}
+.my-8 {
+  margin: 20px 0;
+}
+.my-10 {
+  margin: 28px 0;
+}
+.mx-2 {
+  margin: 0 5px;
+}
+.mx-4 {
+  margin: 0 8px;
+}
+.mx-6 {
+  margin: 0 12px;
+}
+.mx-8 {
+  margin: 0 20px;
+}
+.mx-10 {
+  margin: 0 28px;
+}
+.mr-2 {
+  margin-right: 5px;
+}
+.mr-4 {
+  margin-right: 8px;
+}
+.mr-6 {
+  margin-right: 12px;
+}
+.mr-8 {
+  margin-right: 20px;
+}
+.mr-10 {
+  margin-right: 28px;
+}
+.ml-2 {
+  margin-left: 5px;
+}
+.ml-4 {
+  margin-left: 8px;
+}
+.ml-6 {
+  margin-left: 12px;
+}
+.ml-8 {
+  margin-left: 20px;
+}
+.ml-10 {
+  margin-left: 28px;
+}
+
+.p-2 {
+  margin: 5px;
+}
+.p-4 {
+  margin: 8px;
+}
+.p-6 {
+  margin: 12px;
+}
+.p-8 {
+  margin: 20px;
+}
+.p-10 {
+  margin: 28px;
+}
+.py-2 {
+  padding: 5px 0;
+}
+.py-4 {
+  padding: 8px 0;
+}
+.py-6 {
+  padding: 12px 0;
+}
+.py-8 {
+  padding: 20px 0;
+}
+.py-10 {
+  padding: 28px 0;
+}
+.px-2 {
+  padding: 0 5px;
+}
+.px-4 {
+  padding: 0 8px;
+}
+.px-6 {
+  padding: 0 12px;
+}
+.px-8 {
+  padding: 0 20px;
+}
+.px-10 {
+  padding: 0 28px;
+}
+.pr-2 {
+  padding-right: 5px;
+}
+.pr-4 {
+  padding-right: 8px;
+}
+.pr-6 {
+  padding-right: 12px;
+}
+.pr-8 {
+  padding-right: 20px;
+}
+.pr-10 {
+  padding-right: 28px;
+}
+.plr-2 {
+  padding-left: 5px;
+}
+.plr-4 {
+  padding-left: 8px;
+}
+.plr-6 {
+  padding-left: 12px;
+}
+.plr-8 {
+  padding-left: 20px;
+}
+.plr-10 {
+  padding-left: 28px;
+}
+
+/* UI*/
+.navbarToSticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 101;
+}/*# sourceMappingURL=index.css.map */
